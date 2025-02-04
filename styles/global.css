@@ -111,6 +111,34 @@ a {
     color: inherit;
 }
 
+@media (max-width: 768px) {
+
+    header > div, footer > div {
+        flex-direction: column;
+        text-align: start;
+        align-items: start;
+        gap: 0;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .cards-container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 20px;
+    }
+
+    header, footer {
+        padding: 10px;
+    }
+
+    .blog-content {
+        padding: 20px 0;
+    }
+}
+
+
 ::-webkit-scrollbar {
     width: 8px;
     background: #222327;
