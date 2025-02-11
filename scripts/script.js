@@ -4,6 +4,12 @@ let blogs = [
         title: "First Blog Post",
         date: "March 1, 2024",
         link: "blogs/sample.html"
+    },
+    {
+        image: "https://cdn1.leapcell.io/1349217438Group233.png",
+        title: "Mastering JWT (JSON Web Tokens): A Deep Dive",
+        date: "will be written",
+        link: "blogs/mastering-jwt.html"
     }
     // Add more blogs here
 ];
